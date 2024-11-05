@@ -1,0 +1,93 @@
+body{
+    /* video */
+    background-image: url('./Images/animated.gif'); 
+    background-position: center;       
+    background-repeat: no-repeat;    
+
+    color: white; 
+}
+#logo{
+width: 170px;
+height: auto;
+
+}
+li{
+display: flex;
+list-style: none;
+margin: 33px 0px 0px 62vw;
+padding: 10px;
+font-size: 20px;
+}
+li ul{
+padding: 20px;
+}
+li ul link{
+    cursor: pointer;
+}
+nav{
+display: flex;
+}
+#welcome{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#w2{
+margin: -15px 0px 0px 0px;
+font-size: 30px;
+text-align: center;
+}
+#w2 p span{
+font-weight: bolder;
+}
+#heading{
+font-size: 100px;
+padding: 5px;
+font-weight: bolder;
+position: relative;
+margin: 80px 0px 80px 0px;
+text-shadow: 5px 1px 6px gray;
+}
+#heading::before {
+content: "";
+position: absolute;
+top: -5px;
+left: 0;
+right: 0;
+height: 2px;
+background: white;
+}
+#heading::after {
+content: "";
+position: absolute;
+bottom: -5px;
+left: 0;
+right: 0;
+height: 2px;
+background: white;
+}
+#keyword{
+font-size: 40px;
+font-weight: bolder
+}
+.buttons{
+display: flex;
+justify-content: center;
+}
+.same{
+text-align: center;
+padding: 11px 28px 11px 28px;
+margin: 5px 73px 0px 38px;
+border-radius: 25px;
+border: none;
+font-size: 22px;
+cursor: pointer;
+}
+#confess{
+background-color: black;
+color: white;
+}
+#discover{
+background-color: white;
+color: black;
+}
